@@ -19,8 +19,6 @@ public abstract class Saeugetier
     public abstract String printAll();
 
     //Getter und Setter Methoden
-
-
     public String getName()
     {
         return name;
