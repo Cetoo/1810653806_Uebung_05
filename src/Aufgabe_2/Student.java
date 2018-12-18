@@ -6,6 +6,7 @@ public class Student extends Mensch
     private String studiengang;
 
 
+    //Konstruktor von Student
     public Student(String vorname, String nachname, int alter, int matrikelnummer, String studiengang)
     {
         super(vorname, nachname, alter);
@@ -20,7 +21,7 @@ public class Student extends Mensch
         System.out.println(getVorname()+ " " +getNachname()+ " ist ein Student und ist " +getAlter()+ " Jahre alt besitzt die Matrikelnummer: " +getMatrikelnummer()+ " und studiert " +getStudiengang()+ ".");
     }
 
-    //Konstruktor
+    //Getter und Setter
 
     public int getMatrikelnummer()
     {
