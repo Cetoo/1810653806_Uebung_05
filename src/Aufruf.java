@@ -59,5 +59,32 @@ public class Aufruf
         }
         System.out.println("_____________________________________________________________________________________");
 
+
+        //Aufgabe 4 String vergleichen mit equals
+        System.out.println("Aufgabe 4");
+
+        //3 Eingabefelder für den Nutzer
+        String f = JOptionPane.showInputDialog("Bitte geben Sie etwas ein!");
+        String g = JOptionPane.showInputDialog("Bitte geben Sie etwas ein!");
+        String h = JOptionPane.showInputDialog("Bitte geben Sie etwas ein!");
+
+        //mit .equals kann ich String miteinander vergleichen mit einem if und mehreren else if kann ich dies beliebig oft machen
+
+        if (f.equals(g))
+        {
+            System.out.println("Mindestens zwei der eingegebenen Werte waren gleich.");
+        }
+        else if (f.equals(h))
+        {
+            System.out.println("Mindestens zwei der eingegebenen Werte waren gleich.");
+        }
+        else if (g.equals(h))
+        {
+            System.out.println("Mindestens zwei der eingegebenen Werte waren gleich.");
+        }
+        else
+        {
+            System.out.println("Es wurden vom Nutzer keine gleichen Werte eingegeben.");
+        }
     }
 }

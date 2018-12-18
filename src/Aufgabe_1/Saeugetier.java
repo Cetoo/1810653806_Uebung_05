@@ -2,6 +2,7 @@ package Aufgabe_1;
 
 public abstract class Saeugetier
 {
+    //Attribute von Saeugetier
     private String name;
     private int alter;
     private String geschlecht;
@@ -15,8 +16,10 @@ public abstract class Saeugetier
         this.geschlecht = geschlecht;
     }
 
+
     //abstrakte Methode
     public abstract String printAll();
+
 
     //Getter und Setter Methoden
     public String getName()

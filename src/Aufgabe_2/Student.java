@@ -2,13 +2,15 @@ package Aufgabe_2;
 
 public class Student extends Mensch
 {
+    //Attribute von Student
     private int matrikelnummer;
     private String studiengang;
 
 
-    //Konstruktor von Student
+    //Konstruktor von Student mit den zwei neuen Attributen von Student
     public Student(String vorname, String nachname, int alter, int matrikelnummer, String studiengang)
     {
+        //Attribute von Mensch in super + die zwei Attribute von Student
         super(vorname, nachname, alter);
         this.matrikelnummer = matrikelnummer;
         this.studiengang = studiengang;
